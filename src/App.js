@@ -2,11 +2,13 @@ import "./App.css";
 import Row from "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
+import Nav from "./Nav";
 // git remote add origin https://github.com/Ashok1252002/Netflix-clone.git
 
 const App = () => {
 	return (
 		<div className="app">
+			<Nav />
 			<Banner />
 			<Row
 				title="Netflix Originals"
